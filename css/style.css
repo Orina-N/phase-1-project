@@ -1,0 +1,121 @@
+@import url(bootstrap.css);
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#name{
+margin-top: 5vh;
+}
+
+#menu-carrier{
+    margin-left: 50% !important;
+
+}
+
+#lullaby-lane{
+    margin-left: 5%;
+}
+
+#container{
+    height: 90vh ;
+    width:70%;
+    border-radius: 10px !important;
+    margin-bottom: 10vh;
+    border:1px solid #87ADDE;
+}
+
+#shop-btn{
+background-color: #87ADDE;
+padding: 2vh;
+border-radius: 10px;
+}
+
+#sub-title{
+    margin-top: 20px;
+}
+
+#details{
+    margin-top: 20px;
+}
+    
+
+.nav-link{
+    color:black;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+
+
+#img-displayer{
+    border:1px solid
+}
+
+.categories{
+    font-size: 20px;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+#card-carrier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-foxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.display-cards{
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#footer{
+    background-color: #555555;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/** shop.html*/
+#shopWelcome{
+    height:40vh;
+}
+
+#card-carrier{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin:10px;
+}
+
+.displayCards{
+    width:270px;
+    height:250px;
+}
+
+/** cards image*/
+
+.cardImage{
+    width: 80%;
+    heigh: 70vh;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.categoryNames {
+   font-size: 25px;
+   list-style-type: none;
+}
+
