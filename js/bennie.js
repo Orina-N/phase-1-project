@@ -42,6 +42,8 @@ function displayHats ( hats){
          `
             parentDescription.appendChild(childDescription)
             parentBennie.appendChild(childBennie)
+            const buybtn = document.querySelector(".buybtn")
+            
         })
     }))
        
