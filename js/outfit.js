@@ -31,8 +31,9 @@ function displayOutfitDetails (outfits) {
 
             childDescription.innerHTML = ` 
             <h2>${foundOutfit.name}</h2>
-            <h4>${foundOutfit.price}</h4>
+            <h4>Price:${foundOutfit.price}</h4>
             <p>${foundOutfit.description}</p>
+            <button class="buybtn">Buy product</button>
             `
             parentOutfit.appendChild(childOutfit)
             parentDescription.appendChild(childDescription)

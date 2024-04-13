@@ -30,8 +30,9 @@ function displayDiapersDetails (diapers) {
         `
         childDescription.innerHTML = `  
         <h2>${foundDiaper.name}</h2>
-        <h4>${foundDiaper.price}</h4>
+        <h4>Price:${foundDiaper.price}</h4>
         <p>${foundDiaper.description}</p>
+        <button class="buybtn">Buy product</button>
         `
 
         parentDescription.appendChild(childDescription)

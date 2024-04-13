@@ -28,13 +28,14 @@ function displayShoeDetails (shoes) {
     oneShoe.addEventListener("click", (event)=>{
         const foundShoe = shoes.find((element)=> element.id === event.target.id)
         childShoes.innerHTML = ` 
-        <img class="cardImage" src=${foundShoe.image}>
+        <img class="cardImage " src=${foundShoe.image}>
 
         `
         childDescription.innerHTML = `  
-        <h2>${foundShoe.name}</h2>
-        <h4>${foundShoe.price}</h4>
+        <h2 class="shoesdes">${foundShoe.name}</h2>
+        <h4>Price:${foundShoe.price}</h4>
         <p>${foundShoe.description}</p>
+        <button class="buybtn">Buy Product</button>
         `
 
         parentDescription.appendChild(childDescription)

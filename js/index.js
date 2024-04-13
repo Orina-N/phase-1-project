@@ -34,8 +34,9 @@ function displayRomperDetails (rompers) {
         `
         childDescription.innerHTML = `  
         <h2>${foundRomper.name}</h2>
-        <h4>${foundRomper.price}</h4>
+        <h4>Price:${foundRomper.price}</h4>
         <p>${foundRomper.description}</p>
+        <button class="buybtn">Buy product</button>
         `
 
         parentDescription.appendChild(childDescription)

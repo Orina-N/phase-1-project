@@ -36,8 +36,9 @@ function displayHats ( hats){
             `
          childDescription.innerHTML = `  
            <h2>${foundBennie.name}</h2>
-           <h4>${foundBennie.price}</h4>
+           <h4>Price:${foundBennie.price}</h4>
            <p>${foundBennie.description}</p>
+           <button class="buybtn">Buy Product</button>
          `
             parentDescription.appendChild(childDescription)
             parentBennie.appendChild(childBennie)
